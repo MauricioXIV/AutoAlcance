@@ -8,15 +8,15 @@ const Navbar = () => {
       <nav className="navbar">
 				<Link to="/" className="logo"><h1>AutoAlcance</h1></Link>
 				<ul className="opciones">
-					<li><Link className="menu-link" to="/">Inicio</Link></li>
-					<li><Link className="menu-link" to="/nosotros">Nosotros</Link></li>
-					<li><Link className="menu-link" to="/productos">Productos</Link></li>
-					<li><Link className="menu-link" to="/productos/Nissan">Nissan</Link></li>
-					<li><Link className="menu-link" to="/productos/Volvo">Volvo</Link></li>
-					<li><Link className="menu-link" to="/productos/Toyota">Toyota</Link></li>
-					<li><Link className="menu-link" to="productos/Chevrolet">Chevrolet</Link></li>
-					<li><Link className="menu-link" to="/contacto">Contacto</Link></li>
-					<li><CartWidget /></li>
+					<li className="lista"><Link className="menu-link" to="/">Inicio</Link></li>
+					<li className="lista"><Link className="menu-link" to="/nosotros">Nosotros</Link></li>
+					<li className="lista"><Link className="menu-link" to="/productos">Productos</Link></li>
+					<li className="lista"><Link className="menu-link" to="/productos/Nissan">Nissan</Link></li>
+					<li className="lista"><Link className="menu-link" to="/productos/Volvo">Volvo</Link></li>
+					<li className="lista"><Link className="menu-link" to="/productos/Toyota">Toyota</Link></li>
+					<li className="lista"><Link className="menu-link" to="productos/Chevrolet">Chevrolet</Link></li>
+					<li className="lista"><Link className="menu-link" to="/contacto">Contacto</Link></li>
+					<li className="lista"><CartWidget /></li>
 					
 
 

@@ -20,7 +20,7 @@ const ItemDetail= ({ item }) => {
     return (
         <div className="container">
             <div className="producto-details">
-                <img src={item.image} alt="tupu" />
+                <img src={item.image} alt="tupu" className="tupu" />
                 <div>
                     <h3 className="titulo">{item.producto}</h3>
                     <p className="categoria">{item.categoria}</p>
