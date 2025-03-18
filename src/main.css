@@ -1,0 +1,17 @@
+:root {
+    color-scheme: light dark;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
