@@ -88,7 +88,11 @@ li {
 }
 
 .main-title {
-    color: white;
+    color: #00AACC;
+}
+
+#carro {
+    color: #00AACC;
 }
 
 .item-count {

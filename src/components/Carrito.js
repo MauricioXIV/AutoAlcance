@@ -12,7 +12,7 @@ const Carrito = () => {
 
     return (
         <div className="main-title">
-            <h1>Carrito</h1>
+            <h1 id="carro" >Carrito</h1>
 
             {
                 carrito.map((prod) => (     
