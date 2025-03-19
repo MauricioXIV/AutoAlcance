@@ -11,6 +11,6 @@
 
 .App {
     flex-wrap: wrap;
-    width: 100%;
+    width: auto;
 }
 
